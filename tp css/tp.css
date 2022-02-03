@@ -1,0 +1,86 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.img{
+    width:100%;
+    height: 40px;
+    background-image: url("top_bg.png");
+    background-size: 100% 40px;
+}
+.imgg{
+    height: 240px;
+    width: 560px;
+    background-image: url("flash_img.png");
+    background-size: 570px 300px;
+    margin-left: 31.7%;
+
+}
+.immg{
+    width: 36%;
+    height: 95%;
+}
+nav ul{
+    list-style-type:none;
+}
+nav li{
+    float:left;
+    width:20%;
+    text-align: center;
+}
+nav ul::after{
+    content:"";
+    display: table;
+    clear:both
+}
+nav{
+    width:560px;
+    margin-left: 487px;
+    background-color: brown;
+    top:0px;
+}
+nav a{
+    display: block;
+    text-decoration: none;
+    color:black;
+    padding: 10px 0px;
+    color: white;
+}
+nav a:hover{
+   background-image: url("rings.png");
+   background-repeat: no-repeat;
+   background-position: right;
+   background-size: 100% 100%;
+}
+#cont{
+    display: flex;
+    margin-left: 486px;
+    margin-right: 486px;
+
+}
+p{
+font-size: small;
+}
+h3{
+    color: brown;
+}
+#conte{
+    display: flex;
+    margin-left: 486px;
+    margin-right: 486px;
+
+}
+#fin{
+    text-align: center;
+    font-size: 10px;
+}
+.foot{
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    bottom:0px;
+} 
+el1:hover{
+    background-image: url("rings");
+}
